@@ -1,14 +1,6 @@
 package com.soon.ducks;
 
 
-public class MallardDuck implements DuckBehaviour {
-    @Override
-    public void swim() {
-        System.out.println("I'm swimming!");
-    }
+public class MallardDuck extends Duck {
 
-    @Override
-    public void quack() {
-        System.out.println("Quack!");
-    }
 }
