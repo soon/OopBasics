@@ -17,7 +17,7 @@ public class Main {
         DuckBehaviour[] ducks = CreateDucks();
 
         for (DuckBehaviour d : ducks) {
-            System.out.println(d.getClass().getName());
+            System.out.println(d.getClass().getSimpleName());
             d.swim();
             d.quack();
             System.out.println("---------------------------");
